@@ -1,0 +1,10 @@
+{
+ "type": "record",
+ "name": "table1", 
+ "doc": "A Sample table1 Record", 
+ "fields": [
+            {"name": "email", "type": "string"}, 
+            {"name": "name", "type": ["null", "string"]}, 
+            {"name": "others", "type":  { "type": "map", "values": ["null", "string"]}, "default": "null"}
+           ]
+}

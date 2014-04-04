@@ -1,0 +1,13 @@
+{
+ "type": "record",
+ "name": "table3", 
+ "doc": "A Sample table3 Record", 
+ "fields": [
+            {"name": "email", "type": "string"}, 
+            {"name": "name", "type": ["null", "string"]}, 
+            {"name": "zipcode", "type": ["null", "string"]},
+            {"name": "salary", "type": ["null", "string"]},
+            {"name": "description", "type": ["null", "string"]},
+            {"name": "others", "type":  { "type": "map", "values": ["null", "string"]}, "default": "null"}
+           ]
+}
