@@ -1,0 +1,12 @@
+{
+ "type": "record",
+ "name": "table4", 
+ "doc": "A Sample table4 Record", 
+ "fields": [
+            {"name": "email", "type": "string"}, 
+            {"name": "name", "type": ["null", "string"]}, 
+            {"name": "joindate", "type": ["null", "string"]},
+            {"name": "region", "type": ["null", "string"]},
+            {"name": "others", "type":  { "type": "map", "values": ["null", "string"]}, "default": "null"}
+           ]
+}
